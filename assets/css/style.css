@@ -224,6 +224,9 @@ a {
     line-height: 1.67; /* 166.667% */
     margin-left: 14px;
 }
+.hero .stats {
+    margin-top: 8px;
+}
 .hero .stats strong {
     padding-right: 15px;
     color: #171100;
