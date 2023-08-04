@@ -376,3 +376,67 @@ a {
     background-color: #ffb900;
     opacity: 0.7;
 }
+/* Feedback */
+.feed-back {
+    margin-top: 135px;
+    background-color: #2e2100;
+    padding: 96px 0;
+}
+.feed-back .feed-back-item {
+    display: flex;
+    justify-content: space-between;
+}
+.feed-back .feed-back-item .avatar {
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.feed-back .feed-back-item .info {
+    width: 14%;
+}
+.feed-back .feed-back-item .content {
+    width: 66%;
+}
+.feed-back .feed-back-item .info .title {
+    color: #f7f7f7;
+    font-family: Sen;
+    font-size: 2.4rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.41; /* 141.667% */
+    margin-top: 18px;
+}
+.feed-back .feed-back-item .info .desc {
+    color: #bfbcb2;
+    font-family: Poppins;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.86; /* 185.714% */
+    margin-top: 4px;
+}
+.feed-back .feed-back-item .info .dots {
+    margin-top: 28px;
+    display: flex;
+    gap: 6px;
+}
+.feed-back .feed-back-item .info .dots .dot {
+    width: 6px;
+    height: 6px;
+    background-color: #634700;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.feed-back .feed-back-item .info .dots .dot:nth-of-type(2) {
+    background-color: #ffb900;
+}
+.feed-back-item blockquote {
+    margin-left: 30px;
+    color: #fff;
+    font-family: Poppins;
+    font-size: 2.6rem;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 1.54; /* 153.846% */
+}
