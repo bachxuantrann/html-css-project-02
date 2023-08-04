@@ -97,6 +97,7 @@ a {
 .hero {
     padding-top: 56px;
     background: #fffcf4;
+    padding-bottom: 65px;
 }
 .hero .body {
     display: flex;
@@ -113,6 +114,7 @@ a {
     height: 685px;
     object-fit: cover;
     border-radius: 20px;
+    vertical-align: bottom;
 }
 .hero-summary {
     position: absolute;
@@ -122,7 +124,7 @@ a {
     border-radius: 12px;
     background: #fff;
     box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.05);
-    padding: 28px 24px;
+    padding: 24px 24px;
 }
 .hero-summary .item {
     display: flex;
@@ -238,4 +240,42 @@ a {
 }
 .hero .stats strong + strong {
     margin-left: 28px;
+}
+/* Popular */
+.popular {
+    padding: 65px 0;
+    margin-top: 35px;
+}
+.popular .popular-top .heading {
+    color: #171100;
+    font-family: Sen;
+    font-size: 3.8rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.26; /* 126.316% */
+    letter-spacing: -0.76px;
+}
+.popular .popular-top .desc {
+    color: #5f5b53;
+    font-family: Poppins;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.67; /* 166.667% */
+    margin-top: 16px;
+    width: 458px;
+}
+.popular-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.popular .control-btn {
+    cursor: pointer;
+}
+.popular .control-btn:hover {
+    opacity: 0.7;
+}
+.popular .control-btn + .control-btn {
+    margin-left: 18px;
 }
