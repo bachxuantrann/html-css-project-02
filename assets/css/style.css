@@ -29,6 +29,7 @@ a {
     padding: 0 16px;
     line-height: 50px;
     min-width: 118px;
+    cursor: pointer;
 }
 .btn:hover {
     opacity: 0.8;
@@ -278,4 +279,88 @@ a {
 }
 .popular .control-btn + .control-btn {
     margin-left: 18px;
+}
+.popular .course-list {
+    margin-top: 55px;
+    display: flex;
+    gap: 30px;
+}
+.popular .course-item {
+    border-radius: 12px;
+    border: 1px solid #e2dfda;
+    flex: 1;
+    background: #fff;
+    background-color: transparent;
+}
+.popular .course-item:hover {
+    border-color: transparent;
+    box-shadow: 0px 18px 36px 0px rgba(0, 0, 0, 0.05);
+}
+.popular .course-item .thumb {
+    border-radius: 12px 12px 0px 0px;
+    width: calc(100% + 2px);
+    height: 278px;
+    object-fit: cover;
+    margin: -1px;
+}
+.popular .course-list .course-item .info {
+    padding: 16px 22px 22px 22px;
+}
+.popular .course-list .course-item .info .head,
+.popular .course-list .course-item .info .foot {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.popular .info .head .title a {
+    color: #171100;
+    font-family: Poppins;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.67; /* 166.667% */
+}
+.popular .info .head .rating {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.popular .info .head .value {
+    color: #fea31b;
+    font-family: Poppins;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.75; /* 175% */
+    margin-left: 6px;
+}
+.popular .info .desc {
+    margin-top: 6px;
+    color: #5f5b53;
+    font-family: Poppins;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.86; /* 185.714% */
+}
+.popular .course-list .course-item .info .foot {
+    margin-top: 12px;
+}
+
+.popular .course-list .course-item .info .foot span {
+    color: #171100;
+    font-family: Poppins;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.67; /* 166.667% */
+}
+.popular .course-item .book-btn {
+    border: none;
+    cursor: pointer;
+}
+.popular .course-item .book-btn:hover {
+    color: #fff;
+    background-color: #ffb900;
+    opacity: 0.7;
 }
