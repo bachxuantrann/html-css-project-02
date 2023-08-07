@@ -6,11 +6,13 @@
 }
 html {
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 body {
     /* 16px */
     font-size: 1.6rem;
     font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
 }
 /* Common */
 .line-clamp {
